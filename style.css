@@ -13,12 +13,13 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background: var(--fondo);
-    color: var(--figura);
+    color: #515151 ;
 }
 
 body.portada{
     background:var(--fondo) url('images/foto_portada.jpg') right bottom no-repeat;
     background-size:auto 100%;
+    color: #515151 ;
 }
 
 a {
