@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 :root{
-    --fondo: #f4d9d0;
+    --fondo: #000;
     --figura: #ddd;
 }
 
@@ -11,9 +11,9 @@
 }
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background: var(--fondo);
-    color: #515151;
+    color: var(--figura);
 }
 
 body.portada{
@@ -23,12 +23,12 @@ body.portada{
 
 a {
     font-weight: bold;
-    color: #515151;
+    color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
 }
 
 a:hover {
-    color: #515151;
+    color: rgba(255, 255, 255, 0.75);
 }
 
 :hover{
@@ -56,13 +56,13 @@ nav p, footer p {
 }
 
 .active {
-    text-decoration: underline;
-    color: #515151;
+    text-decoration: none;
+    color: white;
 }
 
 /* para la página de portada */
 
-header {   
+header { 
     width: 98%;
     margin-left:1%;
     margin-right:1%;
@@ -70,6 +70,7 @@ header {
 }
 
 header div{
+    font-family: 'Montserrat', sans-serif;
     width: 50%;
     padding-top:15vh;
 }
@@ -108,7 +109,7 @@ main article{
     float:left;
     margin:1%;
     width:18%;
-    background: #515151;
+    background:rgba(255,255,255,0.1);
 }
 
 main article img{
@@ -189,5 +190,5 @@ main div#mapa{
 }
 
 main canvas#grafico{
-    background: #f4d9d0;
+    background:#111;
 }
