@@ -23,12 +23,12 @@ body.portada{
 
 a {
     font-weight: bold;
-    color: rgba(255, 255, 255, 0.5);
+    color: #515151;
     text-decoration: none;
 }
 
 a:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: #515151;
 }
 
 :hover{
@@ -109,7 +109,7 @@ main article{
     float:left;
     margin:1%;
     width:18%;
-    background:rgba(255,255,255,0.1);
+    background:#c9e9fc ;
 }
 
 main article img{
