@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 :root{
-    --fondo: #c9e9fc;
+    --fondo: #f8f8f8;
     --figura: #ddd;
 }
 
@@ -110,7 +110,7 @@ main article{
     float:left;
     margin:1%;
     width:18%;
-    background:#c9e9fc ;
+    background:#f8f8f8 ;
 }
 
 main article img{
@@ -191,5 +191,5 @@ main div#mapa{
 }
 
 main canvas#grafico{
-    background:#111;
+    background:#f8f8f8;
 }
